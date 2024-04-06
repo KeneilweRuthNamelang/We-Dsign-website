@@ -1,20 +1,65 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
 body {
   background-color: #1b1b1b;
   color: white;
 }
 
 .aspect-ratio-container {
-    position: relative;
-    width: 100%;
-    padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
 }
 
 .aspect-ratio-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
+.nav-item {
+  display: flex;
+  text-align: end;
+}
+
+/* contact page css*/
+.navigation-bar {
+  background-color: #202020; /* Your desired background color */
+}
+
+h1 {
+  padding: 40px;
+  font-size: 72px;
+}
+
+h6, .socials {
+  color: #f65282;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  height: 16px;
+}
+.contact-details {
+  text-align: center;
+  padding: 10px;
+  gap: 10px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+.custom-btn {
+  background-color: palevioletred; /* Your custom color */
+  border-color: #1B1B1B; /* Border color */
+  color: black; /* Text color */
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: palevioletred; /* Custom color on hover or focus */
+  border-color: #1B1B1B; /* Border color on hover or focus */
+}
