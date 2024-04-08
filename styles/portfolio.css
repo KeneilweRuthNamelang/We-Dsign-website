@@ -10,23 +10,26 @@ body {
   color: white;
   background: var(--main-color);
 }
-.landing-page {padding: 160px 20px;}
+.landing-page {
+  padding: 100px 20px;
+}
 .intro-paragraph {
   text-align: center;
   margin: 30px;
   font-size: 18px;
-font-style: oblique;
+  font-style: oblique;
 }
-
-
 
 .btn-about,
 .btn-contact {
-  background: var(--btn-color);
+  background: #000000;
   border-radius: 4px;
   color: white;
   font-size: 16px;
   padding: 5px 10px;
   margin: 5px 15px;
 }
-
+.btn-about:hover,
+.btn-contact:hover {
+  background-color: var(--btn-color);
+}
