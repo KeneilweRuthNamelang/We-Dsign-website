@@ -42,12 +42,6 @@ body {
 /*CSS for About page*/
 .about-section {padding-top: 60px;}
 
-@media (max-width: 900px) {
-  .about-section {
-    text-align: center;}
-
-    
-}
 
 
 /*Contact page css*/
