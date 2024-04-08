@@ -33,11 +33,13 @@ body {
   font-size: 18px;
   font-style: oblique;
 }
-.logo-img {
+.logo-img, .gallery-image {
   width: 100%;
   height: 100%;
   object-fit: fill;
 }
+
+
 
 /*CSS for About page*/
 .about-section {padding-top: 60px;}
