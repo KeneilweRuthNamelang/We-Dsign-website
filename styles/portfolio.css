@@ -41,11 +41,11 @@
       object-fit: fill;
     }
 
-    .gallery-image {
+    img {
       transition: transform 0.2s ease-in-out;
     }
 
-    .gallery-image:hover {
+    img:hover {
       transform: scale(1.05);
     }
 
