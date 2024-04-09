@@ -9,6 +9,19 @@ body {
   color: var(--text-color);
   background: #1b1b1b;
 }
+.navbar {
+  background-color: #202020; /* Dark gray background */
+}
+.navbar-brand {
+  color: #fff; /* White text */
+  font-weight: bold; /* Bold font weight */
+}
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text */
+}
+.navbar-nav .nav-link:hover {
+  color: #f97922 !important; /* Orange text on hover */
+}
 
 .landing-page {
   padding: 100px 20px 0;
@@ -39,6 +52,7 @@ img:hover {
 .gallery-heading {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  margin-top: 150px;
 }
 
 hr {
