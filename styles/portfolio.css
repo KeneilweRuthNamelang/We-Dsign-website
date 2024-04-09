@@ -1,27 +1,13 @@
 :root {
-  --main-color: #1b1b1b;
-  --secondary-colour: #202020;
+  --text-color: #ccc;
   --btn-color: #f97922;
   --font-family: "Roboto", sans-serif;
 }
 
 body {
   font-family: var(--font-family);
-  color: white;
-  background: var(--main-color);
-}
-
-.btn-custom {
-  background: #000000;
-  border-radius: 4px;
-  color: white;
-  font-size: 16px;
-  padding: 5px 10px;
-  margin: 5px 15px;
-}
-
-.btn-custom:hover {
-  background-color: var(--btn-color);
+  color: var(--text-color);
+  background: #1b1b1b;
 }
 
 .landing-page {
@@ -53,11 +39,10 @@ img:hover {
 .gallery-heading {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  color: #333;
 }
 
 hr {
-  border-top: 2px solid #ccc;
+  border-top: 2px solid var(--text-color);
 }
 
 @media (max-width: 767.98px) {
@@ -71,4 +56,50 @@ hr {
     flex: 0 0 50%;
     max-width: 50%;
   }
+}
+
+/* Contact Info Styling */
+.contact-info {
+  margin-bottom: 30px;
+}
+.contact-info h2 {
+  color: var(--btn-color);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-info .contact-details {
+  font-size: 18px;
+  color: #ccc;
+}
+.custom-link {
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+.custom-link:hover {
+  color: var(--btn-color);
+}
+/* Heading Styling */
+h1,
+.heading {
+  color: var(--btn-color);
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* Button Styling */
+.btn-custom {
+  background: #000000;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px 15px;
+}
+.btn-custom:hover {
+  background-color: var(--btn-color);
+}
+/* Spacing */
+.container {
+  padding: 10px;
 }
