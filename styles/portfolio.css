@@ -60,17 +60,19 @@ img:hover {
 }
 /* Navbar Styling */
 .navbar {
-  background-color: #202020; /* Dark gray background */
+  background-color: #202020;
 }
 .navbar-brand {
-  color: #fff; /* White text */
-  font-weight: bold; /* Bold font weight */
+  color: #fff; 
+  font-weight: bold;
+    transition: all 0.3s ease;
 }
 .navbar-nav .nav-link {
-  color: #fff !important; /* White text */
+  color: #fff !important; 
+  transition: all 0.3s ease;
 }
 .navbar-nav .nav-link:hover {
-  color: #f97922 !important; /* Orange text on hover */
+  color: var(--btn-color) !important;
 }
 
 /* Contact Info Styling */

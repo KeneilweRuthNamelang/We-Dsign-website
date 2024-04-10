@@ -3,27 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>We Design - Creative Solutions</title>
-    <!-- Bootstrap CSS and Bootstrap Bundle (JS and Popper.js)-->
+    <title>We Design - Authentic African Fashion</title>
+    <!-- Meta Tags for SEO -->
+    <meta
+      name="description"
+      content="Welcome to We Design, your premier destination for authentic African fashion. Explore our gallery showcasing high-quality clothing inspired by Africa's rich cultural heritage."
+    />
+    <meta
+      name="keywords"
+      content="We Design, African fashion, authentic clothing, cultural fashion, African heritage"
+    />
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
     <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/0d963fdd64.js"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://kit.fontawesome.com/0d963fdd64.js"
       crossorigin="anonymous"
@@ -33,27 +28,58 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Lightbox CSS and Lightbox JS -->
+    <!-- Lightbox CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
     />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"
-      integrity="sha512-U9dKDqsXAE11UA9kZ0XKFyZ2gQCj+3AwZdBMni7yXSvWqLFEj8C1s7wRmWl9iyij8d5zb4wm56j4z/JVEwS77g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
-
   <body>
     <div class="wrapper">
-      <!-- Navbar header -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top mb-5">
         <div class="container">
-          <a class="navbar-brand" href="#">We Design</a>
+          <!-- Navbar Links (on the left) -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  title="We Dsign about page"
+                  href="about.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  title="We Dsign Gallery collection page"
+                  href="gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  title="We Dsign contact details page"
+                  href="contact.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Navbar Brand (on the right) -->
+          <a class="navbar-brand ml-auto" href="#">We Design</a>
+
+          <!-- Navbar Toggler -->
           <button
             class="navbar-toggler"
             type="button"
@@ -65,51 +91,48 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
 
       <!-- Landing Page -->
       <div class="landing-page text-center">
-        <h1 class="m-3"><em>Making Africa your home</em></h1>
+        <h1 class="m-3"><em>Authentic African Fashion</em></h1>
         <img
-          src="Media/We Dsign logo.jpg"
-          alt="We Dsign logo"
+          src="Media/We Dsign Logo.jpg"
+          alt="We Design Logo"
+          title="We Dsign logo"
           class="img-fluid"
           style="max-width: 80%"
         />
         <p class="intro-paragraph">
-          Your one-stop destination for authentic African fashion. We specialize
-          in providing high-quality clothing inspired by the rich cultural
-          heritage of Africa.
+          Welcome to We Design, your premier destination for authentic African
+          fashion. We specialize in providing high-quality clothing inspired by
+          Africa's rich cultural heritage.
         </p>
       </div>
+
       <!-- Navigation -->
       <nav class="text-center m-5">
-        <a href="about.html" class="btn btn-custom">About Us</a>
-        <a href="gallery.html" class="btn btn-custom">Gallery</a>
-        <a href="contact.html" class="btn btn-custom">Get in Touch!</a>
+        <a
+          href="about.html"
+          class="btn btn-custom"
+          title="Learn more about We Dsign"
+          >About Us</a
+        >
+        <a
+          href="gallery.html"
+          class="btn btn-custom"
+          title="Look through We Dsign creations"
+          >Gallery</a
+        >
+        <a
+          href="contact.html"
+          class="btn btn-custom"
+          title="Find ways to contect We Dsign"
+          >Contact Us</a
+        >
       </nav>
+
       <!-- Our Creations -->
       <h2 class="text-center"><em class="heading">Our Creations</em></h2>
       <div class="container">
@@ -121,7 +144,7 @@
                 src="Media/homepage img 1.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 1"
               />
             </a>
           </div>
@@ -131,7 +154,7 @@
                 src="Media/homepage img 2.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 2"
               />
             </a>
           </div>
@@ -141,7 +164,7 @@
                 src="Media/homepage img 3.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 3"
               />
             </a>
           </div>
@@ -155,7 +178,7 @@
                 src="Media/homepage img 4.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 4"
               />
             </a>
           </div>
@@ -165,7 +188,7 @@
                 src="Media/homepage img 5.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 5"
               />
             </a>
           </div>
@@ -175,7 +198,7 @@
                 src="Media/homepage img 6.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 6"
               />
             </a>
           </div>
@@ -190,7 +213,7 @@
                 src="Media/homepage img 7.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 7"
               />
             </a>
           </div>
@@ -200,7 +223,7 @@
                 src="Media/homepage img 8.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 8"
               />
             </a>
           </div>
@@ -210,7 +233,7 @@
                 src="Media/homepage img 9.jpg"
                 class="img-fluid shadow rounded gallery-image"
                 style="max-width: 100%"
-                alt=""
+                alt="African Fashion 9"
               />
             </a>
           </div>
@@ -220,13 +243,16 @@
         <hr />
       </div>
     </div>
+
     <!-- Footer -->
     <footer class="footer m-4 py-3">
       <div class="container text-center">
-        <div class="fs-5">Connect with us on Social media</div>
+        <div class="fs-5">Connect with us on Social Media</div>
+        <!-- Social Media Links -->
         <a
           href="https://www.facebook.com/profile.php?id=100067482105317"
           target="_blank"
+          title="We Dsign Facebook profile"
           class="social-icon"
           ><i class="fab fa-facebook"></i
         ></a>
@@ -234,12 +260,31 @@
           href="https://www.instagram.com/we_dsign_africa_our_home?igsh=YzljYTk1ODg3Zg=="
           target="_blank"
           class="social-icon"
+          title="We Dsign Instagram profile"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a href="tel:+27760597038" target="_blank" class="social-icon"
+        <a
+          href="tel:+27760597038"
+          target="_blank"
+          class="social-icon"
+          title="We Dsign Whatsapp number"
           ><i class="fab fa-whatsapp"></i
         ></a>
       </div>
     </footer>
+
+    <!-- Bootstrap Bundle (JS and Popper.js) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Lightbox JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"
+      integrity="sha512-U9dKDqsXAE11UA9kZ0XKFyZ2gQCj+3AwZdBMni7yXSvWqLFEj8C1s7wRmWl9iyij8d5zb4wm56j4z/JVEwS77g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
